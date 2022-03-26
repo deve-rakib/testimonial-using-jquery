@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Open+Sans&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  box-sizing: border-box;
+
+}
+
+h2, h3 a, h4{
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  margin: 0;
+  color: rgb(61, 61, 61);
+}
+h4{
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+.img-tham img{
+  width: 150px !important;
+  border-radius: 10%;
+  display: inline-block;
+  margin: auto;
+  padding: 5px;
+}
+
+#testiMonial{
+  background: #f63854;
+  text-align: center;
+  height: 87.7vh;
+}
+
+#testiMonial .owl-theme .owl-dots .owl-dot span{
+  color: white;
+  background: white;
+}
+
+#testiMonial .owl-theme .owl-dots .owl-dot:hover span{
+  background: rgb(0, 0, 0);
+  border: 1px solid white;
+  box-sizing: border-box;
+  
+}
+
+#testiMonial .owl-theme .owl-dots .owl-dot.active span{
+  background: rgb(0, 226, 57);
+}
+
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+
+.section-padding{
+  padding: 60px 0px;
+}
+
+.testimonial-item{
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  height: 480px;
+}
